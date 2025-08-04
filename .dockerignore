@@ -1,0 +1,44 @@
+# Ignore model and output folders
+models/
+outputs/
+
+# Ignore large model files and media
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.mp4
+*.webm
+*.avi
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+.cache/
+
+# Ignore git and other VCS
+.git/
+.gitignore
+
+# Do NOT ignore these (needed for build)
+!Dockerfile
+!download_models.sh
+!requirements.txt
+!main.py
